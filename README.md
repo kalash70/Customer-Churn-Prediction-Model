@@ -1,1 +1,5 @@
 # Customer-Churn-Prediction-Model
+
+Took a public telecommunications dataset which had 37 variables. The main goal of the project was to build a model to predict whether a customer is at the risk of leaving the company or not. One of the main problem whilst cleaning the data was that the target variable "Customer Status" had 3 different unique values. 'churned', 'stayed' and 'joined'. But if we are doing Logistic Regression we need our target variable to have only two values. Since, the main aim of our analysis was to find out whether the customer is still with the company or not, I changed the value 'joined' to 'stayed'. So basically now we have only two values in the target variable column. There were also many missing values in all the other variables. So I took a 'deleting all the null values' approach. After making sure the structure is perfect, the data was perfectly cleaned. 
+
+Check out my work at . Please reach out to me if there is any way I can improve my project at kalashdesai70@gmail.com.
